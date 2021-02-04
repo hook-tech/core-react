@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { deepCompare } from '@kibalabs/core';
+import { deepCompare } from '@hook-tech/core';
 
 export const useDeepCompareRef = <T>(value: T): T => {
   const ref = React.useRef<T>(value);
