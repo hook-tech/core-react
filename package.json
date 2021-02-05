@@ -1,14 +1,14 @@
 {
-  "name": "@kibalabs/core-react",
+  "name": "@hook-tech/core-react",
   "version": "0.6.0",
-  "description": "Utilities for use in React projects at Kiba Labs",
+  "description": "Utilities for use in React projects at Hook",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kibalabs/core-react.git"
+    "url": "https://github.com/hook-tech/core-react.git"
   },
-  "homepage": "https://github.com/kibalabs/core-react",
-  "bugs": "https://github.com/kibalabs/core-react/issues",
+  "homepage": "https://github.com/hook-tech/core-react",
+  "bugs": "https://github.com/hook-tech/core-react/issues",
   "scripts": {
     "build": "build-react-component",
     "start": "build-react-component --start",
@@ -26,14 +26,14 @@
   "types": "dist/index.d.ts",
   "sideEffects": false,
   "dependencies": {
-    "@kibalabs/core": "^0.5.3",
+    "@hook-tech/core": "^0.5.4-next.0",
     "history": "^5.0.0",
     "react-router": "v6.0.0-beta.0",
     "react-router-dom": "v6.0.0-beta.0",
     "react-is": "^17.0.1"
   },
   "devDependencies": {
-    "@kibalabs/build": "0.6.4",
+    "@hook-tech/build": "0.6.4",
     "@types/react": "17.0.0",
     "@types/react-is": "17.0.0",
     "react": "17.0.1",
