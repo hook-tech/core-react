@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { integerFromString, integerToString } from '@kibalabs/core';
+import { integerFromString, integerToString } from '@hook-tech/core';
 
 export const useUrlQueryState = (name: string, overrideInitialValue?: string | null): [string | null | undefined, (newValue: string | null | undefined) => void] => {
   const [value, setValue] = React.useState<string | undefined>((): string | undefined => {

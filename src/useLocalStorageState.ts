@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { booleanFromString, booleanToString, objectFromString, objectToString, stringListFromString, stringListToString } from '@kibalabs/core';
+import { booleanFromString, booleanToString, objectFromString, objectToString, stringListFromString, stringListToString } from '@hook-tech/core';
 
 import { useValueSync } from './useValueSync';
 
