@@ -1,7 +1,7 @@
 {
   "name": "@hook-tech/core-react",
   "version": "0.6.0",
-  "description": "Utilities for use in React projects at Kiba Labs",
+  "description": "Utilities for use in React projects at Hook",
   "license": "MIT",
   "repository": {
     "type": "git",
